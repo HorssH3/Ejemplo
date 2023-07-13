@@ -1,0 +1,91 @@
+*{margin: 0; padding: 0;}
+
+html{background: #000;}
+
+body{
+    width: 750px; height: 750px;
+    background: #ff0000;
+    margin: auto;
+}
+
+header{
+    width: 750px; height: 250px;
+    background: #0c08f1;
+}
+
+#banner{width: 500px; height: 250px;
+background: #daa520;
+float: left;
+}
+
+#logo{ width: 250px; height: 125px;
+background: #808080;
+float: right;
+}
+
+#login{ width: 250px; height: 125px;
+    background: #0c08f1;
+    float: right;
+    }
+
+    nav{
+width: 750px; height: 50px;
+background: #d978e4;
+}
+main{
+    width: 750px; height: 400px;
+    background: #6dabfc;
+}
+
+#left{
+    width: 150px; height: 400px;
+    background: #ff97f1;
+    float: left;
+}
+
+
+
+article{
+    width: 500px; height: 400px;
+    background: #69ff76;
+    float: left;
+}
+
+#right{
+    width: 100px; height: 400px;
+    background: #fbff00;
+    float: left;
+}
+
+footer{
+    width: 750px; height: 50px;
+    background: #00d9ff;
+}
+
+nav{
+    width: 750px; height: 50px;
+    background: #d978e4;
+    padding: 15px;
+    text-align: center;
+    display: block;
+    box-sizing: border-box;
+    
+}
+a{
+    font-size: 15px;
+    text-decoration: none;
+    padding: 0px 20px;
+    margin: auto;
+}
+
+/*Primer estado*/
+a:link{ color: #fff;}
+/*Segundo estado*/
+a:visited{ color: #f00;}
+/*Tercer estado*/
+a:Hover{ color: #00ffff; text-decoration: underline;
+background: #f00;}
+/*Cuarto estado*/
+a:active{ color: #808080;}
+
+
